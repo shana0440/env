@@ -7,7 +7,7 @@ brew cask install fork
 
 # editor
 brew cask install typora visual-studio-code notion
-brew install vim@8.1 --with-lua --with-python --override-system-vim
+brew install neovim
 
 # browser
 brew cask install firefox google-chrome
