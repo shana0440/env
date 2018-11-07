@@ -5,9 +5,6 @@ brew install caskroom/cask/brew-cask
 brew install git-extras
 brew cask install fork
 
-# social
-brew cask install telegram line slack messenger
-
 # editor
 brew cask install typora visual-studio-code notion
 brew install vim@8.1 --with-lua --with-python --override-system-vim
