@@ -17,6 +17,7 @@ git config --global user.email shana0440@gmail.com
 
 # setup neovim
 mkdir ~/.config/nvim
+pip3 install neovim
 echo "set runtimepath^=~/.vim runtimepath+=~/.vim/after" >> ~/.config/nvim/init.vim
 echo "let &packpath = &runtimepath" >> ~/.config/nvim/init.vim
 echo "source ~/.vimrc" >> ~/.config/nvim/init.vim
