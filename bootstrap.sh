@@ -15,4 +15,4 @@ brew cask install font-jetbrains-mono
 bash app.sh
 
 git clone git@github.com:shana0440/dotfiles.git
-stow alacritty fish git tmux vim
+stow alacritty fish git tmux vim yabai skhd

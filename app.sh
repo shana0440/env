@@ -36,3 +36,8 @@ brew cask install vmware-fusion vagrant docker
 
 # terminal record
 brew install asciinema
+
+# window manager
+brew tap koekeishiya/formulae
+brew install yabai skhd
+sudo yabai --install-sa
