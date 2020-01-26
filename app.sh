@@ -2,36 +2,31 @@
 brew install caskroom/cask/brew-cask
 
 # git
-brew install git-extras
 brew cask install fork
 
 # editor
 brew cask install typora visual-studio-code notion
-brew install neovim
+brew install vim@8.2
 
 # browser
 brew cask install firefox google-chrome
 
-# debug tools
-brew install jq tree      # use to format & search json, list files & dirs
+# http
+brew install jq
 brew cask install postman
-pip install http-prompt   # use to send http request like postman
 
-# automate tools
+# devops tools
 brew install ansible
 
 # development tools
-brew install fzf the_silver_searcher tmux watch
+brew install fzf the_silver_searcher tmux watch fd stow
 
 # terminal
-brew cask install iterm2
+brew cask install alacritty
 
 # network
 brew install nmap
 brew cask install wireshark
-
-# windows mananger
-brew cask install divvy
 
 # cloud storage
 brew cask install dropbox
