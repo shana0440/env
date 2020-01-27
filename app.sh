@@ -41,3 +41,21 @@ brew install asciinema
 brew tap koekeishiya/formulae
 brew install yabai skhd
 sudo yabai --install-sa
+
+# fish
+brew install fish
+
+# asdf
+brew install \
+  coreutils automake autoconf openssl \
+  libyaml readline libxslt libtool unixodbc \
+  unzip curl
+brew install asdf
+asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
+asdf plugin-add python
+asdf install python 3.7.4
+asdf global python 3.7.4
+asdf install ruby 2.7.0
+asdf global ruby 2.7.0
+
+echo "source "(brew --prefix asdf)"/asdf.fish" >> ~/.config/fish/config.fish
