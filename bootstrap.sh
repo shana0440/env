@@ -5,7 +5,7 @@ xcode-select --install
 xcode-select -p
 
 # setup font
-brew tap caskroom/fonts
+brew tap homebrew/cask-fonts
 brew cask install font-jetbrains-mono
 
 # install apps
