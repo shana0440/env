@@ -44,6 +44,8 @@ sudo yabai --install-sa
 
 # fish
 brew install fish
+echo `which fish` | sudo tee -a /etc/shells
+chsh -s `which fish`
 
 # asdf
 brew install \
