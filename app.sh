@@ -60,4 +60,4 @@ asdf global python 3.7.4
 asdf install ruby 2.7.0
 asdf global ruby 2.7.0
 
-echo "source "(brew --prefix asdf)"/asdf.fish" >> ~/.config/fish/config.fish
+echo "source "$(brew --prefix asdf)"/asdf.fish" >> ~/.config/fish/config.fish
