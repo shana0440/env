@@ -22,7 +22,7 @@ brew install ansible
 brew install fzf the_silver_searcher tmux watch fd stow
 
 # terminal
-brew cask install alacritty
+brew cask install alacritty kitty
 
 # network
 brew install nmap
